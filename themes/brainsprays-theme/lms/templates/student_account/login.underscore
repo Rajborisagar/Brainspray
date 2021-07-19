@@ -1,0 +1,128 @@
+<body>
+	
+<div class="from_header">
+		<div class="wrapper">
+			<div class="header">
+				<a href="#" class="logo">
+					<img src="images/brainsprays_logo.png" alt="brainsprays">
+				</a>
+			</div>
+			
+			<div class="from">
+				<div class="from_contner">
+					<div class="tab_sac">
+						<ul>
+							<li>
+								<a href="register.html">Register</a>
+							</li>
+							
+							<li class="active">
+								<a href="index.html">Sign in</a>
+							</li>
+						</ul>
+					</div>
+					
+					<div class="from_sec">
+						<from>
+							<ul>
+								<li>
+									<input type="text" placeholder="Username or email..." required="">
+								</li>
+								
+								<li>
+									<input type="password" placeholder="Passwoard..." required="">
+								</li>
+								
+								<li>
+									<input type="submit" value="Sign in">
+									
+									<a href="#">Forgot password ?</a>
+								</li>
+							</ul>
+						
+						</from>
+					
+					
+					</div>
+					
+					<div class="sing_in">
+						<ul>
+							<li>
+								<a href="#">Sign in with your company or school</a>
+							</li>
+							
+							<li>
+								<a href="register.html">First time here? Create an account.</a>
+							</li>
+						</ul>
+					
+					</div>
+					
+					<div class="socal">
+						<ul>
+							<li>
+								<a href="#">
+									<img src="images/amazone_icon.png" alt="">
+									Amazon
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/facebook_icon.png" alt="">
+									Facebook
+								</a>
+							</li>
+							
+							<li>
+								<a href="#">
+									<img src="images/google_icon.png" alt="">
+									Google
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/ms_icon.png" alt="">
+									Microsoft
+								</a>
+							</li>
+						</ul>
+					
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	
+
+	
+</div>	
+	
+<div class="footer">
+	<p>Copyright © 2021  BrainSprays, Inc. All rights reserved</p>	
+</div>		
+
+	 
+
+	
+	
+	
+<div id="stop" class="scrollTop"></div>
+	
+<script>
+		$(function() {
+			var header = $(".menuBar");
+
+			$(window).scroll(function() {    
+				var scroll = $(window).scrollTop();
+				if (scroll >= 50) {
+					header.addClass("scrolled");
+				} else {
+					header.removeClass("scrolled");
+				}
+			});
+
+		});
+</script>	
+	
+<script src="jsLibrary/top_head.js"></script> 	
+</body>

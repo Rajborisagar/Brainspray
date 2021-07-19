@@ -363,7 +363,7 @@ FEATURES = {
     # .. toggle_target_removal_date: None
     # .. toggle_warnings: None
     # .. toggle_tickets: None
-    'ENABLE_THIRD_PARTY_AUTH': False,
+    'ENABLE_THIRD_PARTY_AUTH': True,
 
     # .. toggle_name: ENABLE_MKTG_SITE
     # .. toggle_implementation: DjangoSetting
